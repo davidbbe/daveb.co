@@ -1,0 +1,226 @@
+.form-control {
+  border-color: #d0cdbc;
+}
+.form-control:focus {
+  border-color: #777777;
+}
+
+a,
+.list-logos a img:first-child,
+.section-clients-3 #clients-carousel li img:first-child, .project-content .icon-close i, .nav-text > li.active a {
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+
+.btn,
+.btn-black i {
+  -webkit-transition: all 150ms ease-out;
+  -moz-transition: all 150ms ease-out;
+  -o-transition: all 150ms ease-out;
+  -ms-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+
+@media (min-width: 992px) {
+  .title.add-animation h5,
+  .title.add-animation h2,
+  .title.add-animation .separator-container,
+  .title.add-animation p {
+    transform: translate3D(0px, 150px, 0px);
+    -webkit-transform: translate3D(0px, 150px, 0px);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out 0.6s;
+    -moz-transition: all 0.3s ease-out 0.6s;
+    -o-transition: all 0.3s ease-out 0.6s;
+    -ms-transition: all 0.3s ease-out 0.6s;
+    transition: all 0.3s ease-out 0.6s;
+  }
+  .title.add-animation h5 {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .title.add-animation h2 {
+    -webkit-transition: all 0.3s ease-out 0.15s;
+    -moz-transition: all 0.3s ease-out 0.15s;
+    -o-transition: all 0.3s ease-out 0.15s;
+    -ms-transition: all 0.3s ease-out 0.15s;
+    transition: all 0.3s ease-out 0.15s;
+  }
+  .title.add-animation .separator-container {
+    -webkit-transition: all 0.3s ease-out 0.3s;
+    -moz-transition: all 0.3s ease-out 0.3s;
+    -o-transition: all 0.3s ease-out 0.3s;
+    -ms-transition: all 0.3s ease-out 0.3s;
+    transition: all 0.3s ease-out 0.3s;
+  }
+  .title.add-animation p {
+    -webkit-transition: all 0.3s ease-out 0.45s;
+    -moz-transition: all 0.3s ease-out 0.45s;
+    -o-transition: all 0.3s ease-out 0.45s;
+    -ms-transition: all 0.3s ease-out 0.45s;
+    transition: all 0.3s ease-out 0.45s;
+  }
+  .title.add-animation.animate h5,
+  .title.add-animation.animate h2,
+  .title.add-animation.animate .separator-container,
+  .title.add-animation.animate p {
+    transform: translate3D(0px, 0px, 0px);
+    -webkit-transform: translate3D(0px, 0px, 0px);
+    opacity: 1;
+  }
+
+  .card.add-animation,
+  .list-logos .logo.add-animation,
+  .project.add-animation,
+  .projects .info.add-animation,
+  .tab-content.add-animation,
+  .nav.add-animation,
+  .team .member.add-animation,
+  .address.add-animation,
+  .address-container.add-animation,
+  .form-group.add-animation,
+  .footer .info.add-animation,
+  .description.add-animation,
+  .carousel.add-animation,
+  .static-image.add-animation,
+  p.add-animation {
+    transform: translate3D(0px, 150px, 0px);
+    -webkit-transform: translate3D(0px, 150px, 0px);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out 0.6s;
+    -moz-transition: all 0.3s ease-out 0.6s;
+    -o-transition: all 0.3s ease-out 0.6s;
+    -ms-transition: all 0.3s ease-out 0.6s;
+    transition: all 0.3s ease-out 0.6s;
+  }
+  .card.add-animation.animation-1,
+  .list-logos .logo.add-animation.animation-1,
+  .project.add-animation.animation-1,
+  .projects .info.add-animation.animation-1,
+  .tab-content.add-animation.animation-1,
+  .nav.add-animation.animation-1,
+  .team .member.add-animation.animation-1,
+  .address.add-animation.animation-1,
+  .address-container.add-animation.animation-1,
+  .form-group.add-animation.animation-1,
+  .footer .info.add-animation.animation-1,
+  .description.add-animation.animation-1,
+  .carousel.add-animation.animation-1,
+  .static-image.add-animation.animation-1,
+  p.add-animation.animation-1 {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .card.add-animation.animation-2,
+  .list-logos .logo.add-animation.animation-2,
+  .project.add-animation.animation-2,
+  .projects .info.add-animation.animation-2,
+  .tab-content.add-animation.animation-2,
+  .nav.add-animation.animation-2,
+  .team .member.add-animation.animation-2,
+  .address.add-animation.animation-2,
+  .address-container.add-animation.animation-2,
+  .form-group.add-animation.animation-2,
+  .footer .info.add-animation.animation-2,
+  .description.add-animation.animation-2,
+  .carousel.add-animation.animation-2,
+  .static-image.add-animation.animation-2,
+  p.add-animation.animation-2 {
+    -webkit-transition: all 0.3s ease-out 0.15s;
+    -moz-transition: all 0.3s ease-out 0.15s;
+    -o-transition: all 0.3s ease-out 0.15s;
+    -ms-transition: all 0.3s ease-out 0.15s;
+    transition: all 0.3s ease-out 0.15s;
+  }
+  .card.add-animation.animation-3,
+  .list-logos .logo.add-animation.animation-3,
+  .project.add-animation.animation-3,
+  .projects .info.add-animation.animation-3,
+  .tab-content.add-animation.animation-3,
+  .nav.add-animation.animation-3,
+  .team .member.add-animation.animation-3,
+  .address.add-animation.animation-3,
+  .address-container.add-animation.animation-3,
+  .form-group.add-animation.animation-3,
+  .footer .info.add-animation.animation-3,
+  .description.add-animation.animation-3,
+  .carousel.add-animation.animation-3,
+  .static-image.add-animation.animation-3,
+  p.add-animation.animation-3 {
+    -webkit-transition: all 0.3s ease-out 0.3s;
+    -moz-transition: all 0.3s ease-out 0.3s;
+    -o-transition: all 0.3s ease-out 0.3s;
+    -ms-transition: all 0.3s ease-out 0.3s;
+    transition: all 0.3s ease-out 0.3s;
+  }
+  .card.add-animation.animation-4,
+  .list-logos .logo.add-animation.animation-4,
+  .project.add-animation.animation-4,
+  .projects .info.add-animation.animation-4,
+  .tab-content.add-animation.animation-4,
+  .nav.add-animation.animation-4,
+  .team .member.add-animation.animation-4,
+  .address.add-animation.animation-4,
+  .address-container.add-animation.animation-4,
+  .form-group.add-animation.animation-4,
+  .footer .info.add-animation.animation-4,
+  .description.add-animation.animation-4,
+  .carousel.add-animation.animation-4,
+  .static-image.add-animation.animation-4,
+  p.add-animation.animation-4 {
+    -webkit-transition: all 0.3s ease-out 0.45s;
+    -moz-transition: all 0.3s ease-out 0.45s;
+    -o-transition: all 0.3s ease-out 0.45s;
+    -ms-transition: all 0.3s ease-out 0.45s;
+    transition: all 0.3s ease-out 0.45s;
+  }
+  .card.add-animation.animate,
+  .list-logos .logo.add-animation.animate,
+  .project.add-animation.animate,
+  .projects .info.add-animation.animate,
+  .tab-content.add-animation.animate,
+  .nav.add-animation.animate,
+  .team .member.add-animation.animate,
+  .address.add-animation.animate,
+  .address-container.add-animation.animate,
+  .form-group.add-animation.animate,
+  .footer .info.add-animation.animate,
+  .description.add-animation.animate,
+  .carousel.add-animation.animate,
+  .static-image.add-animation.animate,
+  p.add-animation.animate {
+    transform: translate3D(0px, 0px, 0px);
+    -webkit-transform: translate3D(0px, 0px, 0px);
+    opacity: 1;
+  }
+  .card.add-animation.animate.open,
+  .list-logos .logo.add-animation.animate.open,
+  .project.add-animation.animate.open,
+  .projects .info.add-animation.animate.open,
+  .tab-content.add-animation.animate.open,
+  .nav.add-animation.animate.open,
+  .team .member.add-animation.animate.open,
+  .address.add-animation.animate.open,
+  .address-container.add-animation.animate.open,
+  .form-group.add-animation.animate.open,
+  .footer .info.add-animation.animate.open,
+  .description.add-animation.animate.open,
+  .carousel.add-animation.animate.open,
+  .static-image.add-animation.animate.open,
+  p.add-animation.animate.open {
+    transform: none;
+    transition: none;
+  }
+}
+.animate.moving.open {
+  transform: none !important;
+}
