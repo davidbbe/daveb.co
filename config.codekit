@@ -78,24 +78,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/cross-browser.png": {
-		"fileType": 32768,
+	"\/assets\/img\/cross-browser.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 52107,
-		"inputAbbreviatedPath": "\/assets\/img\/cross-browser.png",
-		"outputAbbreviatedPath": "\/assets\/img\/cross-browser.png",
+		"initialSize": 43563,
+		"inputAbbreviatedPath": "\/assets\/img\/cross-browser.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/cross-browser.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/html5-css3.png": {
-		"fileType": 32768,
+	"\/assets\/img\/html5-css3.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 48497,
-		"inputAbbreviatedPath": "\/assets\/img\/html5-css3.png",
-		"outputAbbreviatedPath": "\/assets\/img\/html5-css3.png",
+		"initialSize": 46692,
+		"inputAbbreviatedPath": "\/assets\/img\/html5-css3.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/html5-css3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -133,13 +133,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/responsive_web_design.png": {
+	"\/assets\/img\/responsive_web_design2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2003,
-		"inputAbbreviatedPath": "\/assets\/img\/responsive_web_design.png",
-		"outputAbbreviatedPath": "\/assets\/img\/responsive_web_design.png",
+		"initialSize": 22770,
+		"inputAbbreviatedPath": "\/assets\/img\/responsive_web_design2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/responsive_web_design2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -432,6 +432,31 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/assets\/scss\/what-i-do.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scss\/what-i-do.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/what-i-do.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/contact.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
