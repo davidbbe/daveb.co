@@ -1093,6 +1093,9 @@ a:hover {
   overflow: hidden;
   display: block;
   position: relative;
+  @media screen and (min-width: 992px) {
+    min-height: 645px;
+  }
 }
 .section .parallax > img,
 .section .parallax .filter > img, .section .full-image > img,
@@ -1441,7 +1444,7 @@ a.carousel-control span.fa {
 }
 .section-header .separator {
   color: #fff;
-  margin: 2em auto;
+  margin: 5px auto;
 }
 .section-header .separator.line-separator:before, .section-header .separator.line-separator:after {
   border-color: white;
@@ -1492,6 +1495,7 @@ a.carousel-control span.fa {
 }
 
 .card img {
+  width: 100%;
   max-width: 100%;
 }
 
@@ -2607,11 +2611,17 @@ body.noscroll {
     margin: 0;
     overflow: hidden;
   }
-  .section-we-made-2 .projects .row {
-    width: 2500px;
-    margin: 0;
-    position: relative;
+  .portfolio-item {
+    margin-bottom: 30px;
+    p {
+      margin-top: 3px;
+    }
   }
+  // .section-we-made-2 .projects .row {
+  //   width: 2500px;
+  //   margin: 0;
+  //   position: relative;
+  // }
   .section-we-made-2 .projects .row.scroller [class^="col-"] {
     padding-left: 0;
     padding-right: 0;
@@ -2628,7 +2638,7 @@ body.noscroll {
     display: inline;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .section-with-hover .project .over-area {
     opacity: 1;
     -webkit-transition: background 0.25s, opacity 0.25s 0.25s;
@@ -2694,22 +2704,21 @@ body.noscroll {
     height: 80vh;
   }
   .section-header .content {
-    top: 50%;
+    top: 38%;
   }
   .section-header .content h1, .section-header .content h5, .section-header .content p {
-    margin: 0;
+    margin: 15px 0 0;
   }
   .section-header .content h1 {
     font-size: 4.5em;
     letter-spacing: 0.07em;
-    line-height: 1.7;
   }
   .section-header .content h1 span {
     font-size: 1em;
   }
   .section-header .content h5 {
     font-size: 1.125em;
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .section-header .content .separator {
     width: 12em;

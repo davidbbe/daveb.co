@@ -89,6 +89,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/header-background.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 502802,
+		"inputAbbreviatedPath": "\/assets\/img\/header-background.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/header-background.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/html5-css3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -155,39 +166,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/rubik_background2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 67330,
-		"inputAbbreviatedPath": "\/assets\/img\/rubik_background2.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/rubik_background2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/rubik_background3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 108167,
-		"inputAbbreviatedPath": "\/assets\/img\/rubik_background3.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/rubik_background3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/rubik_background3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22052,
-		"inputAbbreviatedPath": "\/assets\/img\/rubik_background3.png",
-		"outputAbbreviatedPath": "\/assets\/img\/rubik_background3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/rubik_background4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -228,6 +206,127 @@
 		"initialSize": 2893,
 		"inputAbbreviatedPath": "\/assets\/img\/web-performance.png",
 		"outputAbbreviatedPath": "\/assets\/img\/web-performance.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Global-Makerfaire.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.63874e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Global-Makerfaire.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Global-Makerfaire.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Makercamp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67501,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makercamp.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makercamp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Makercamp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.4019e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makercamp.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makercamp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Makercon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01792e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makercon.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makercon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Makerfaire.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.36988e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makerfaire.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makerfaire.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Makershed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.69468e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makershed.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makershed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Makezine.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.96551e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makezine.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makezine.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/OnTapBeerTours.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.04974e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/OnTapBeerTours.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/OnTapBeerTours.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/suwh.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.94769e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/suwh.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/suwh.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Tourit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.54056e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Tourit.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Tourit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Travel-blog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.36319e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Travel-blog.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Travel-blog.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
