@@ -89,13 +89,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/header-background.jpg": {
+	"\/assets\/img\/header-background.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 502802,
-		"inputAbbreviatedPath": "\/assets\/img\/header-background.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/header-background.jpg",
+		"initialSize": 502794,
+		"inputAbbreviatedPath": "\/assets\/img\/header-background.jpeg",
+		"outputAbbreviatedPath": "\/assets\/img\/header-background.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -210,6 +210,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/websites\/Global-Makerfaire.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89245,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Global-Makerfaire.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Global-Makerfaire.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/websites\/Global-Makerfaire.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -243,6 +254,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/websites\/Makercon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82092,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makercon.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makercon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/websites\/Makercon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -250,6 +272,17 @@
 		"initialSize": 1.01792e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makercon.png",
 		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makercon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Makerfaire.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83045,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makerfaire.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makerfaire.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -265,6 +298,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/websites\/MakerProjectLab.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81270,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/MakerProjectLab.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/MakerProjectLab.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Makershed.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80460,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makershed.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makershed.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/websites\/Makershed.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -272,6 +327,17 @@
 		"initialSize": 1.69468e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makershed.png",
 		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makershed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Makezine.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90597,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Makezine.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Makezine.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -287,6 +353,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/websites\/OnTapBeerTours.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68840,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/OnTapBeerTours.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/OnTapBeerTours.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/websites\/OnTapBeerTours.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -294,6 +371,17 @@
 		"initialSize": 1.04974e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/websites\/OnTapBeerTours.png",
 		"outputAbbreviatedPath": "\/assets\/img\/websites\/OnTapBeerTours.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/suwh.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86242,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/suwh.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/suwh.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -309,6 +397,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/websites\/Tourit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71550,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Tourit.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Tourit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/websites\/Tourit.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -316,6 +415,17 @@
 		"initialSize": 1.54056e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/websites\/Tourit.png",
 		"outputAbbreviatedPath": "\/assets\/img\/websites\/Tourit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/Travel-blog.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59396,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/Travel-blog.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/Travel-blog.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
