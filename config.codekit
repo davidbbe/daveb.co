@@ -298,6 +298,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/websites\/MakerMedia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79433,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/MakerMedia.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/MakerMedia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/websites\/MakerProjectLab.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -437,6 +448,17 @@
 		"initialSize": 1.36319e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/websites\/Travel-blog.png",
 		"outputAbbreviatedPath": "\/assets\/img\/websites\/Travel-blog.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/USAUWHMen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75215,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/USAUWHMen.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/USAUWHMen.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
