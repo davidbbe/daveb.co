@@ -4,8 +4,8 @@ This is a one page website for the my personal/portfolio site.
 
 ## Installation
 
-cd to root folder in your CLI of choice
-run command "grunt" to watch, concat, and compile css and js.
+* cd to root folder in your CLI of choice
+* run command "grunt" to watch, concat, and compile css and js.
 
 ## Built With
 
