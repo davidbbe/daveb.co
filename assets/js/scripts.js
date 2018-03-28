@@ -1,3 +1,8 @@
+// @codekit-prepend "jquery.waypoints.min.js";
+// @codekit-prepend "modernizr.js";
+// @codekit-prepend "lazysizes.min.js";
+
+
 var searchVisible = 0;
 var transparent = true;
 
