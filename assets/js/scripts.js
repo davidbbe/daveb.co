@@ -2,7 +2,6 @@
 // @codekit-prepend "modernizr.js";
 // @codekit-prepend "lazysizes.min.js";
 
-
 var searchVisible = 0;
 var transparent = true;
 
@@ -331,12 +330,13 @@ rubik = {
     showModal: function(button){
         var id = $(button).data('target');
         var $project = $(button).closest('.project');
-        
         var scrollTop = $(window).scrollTop();
-        var distanceTop = $project.offset().top;
+        if ($project.length) {
+            var distanceTop = $project.offset().top;
+            var projectLeft = $project.offset().left;
+        }
 
         var projectTop = distanceTop - scrollTop; 
-        var projectLeft = $project.offset().left;
         var projectHeight = $project.innerHeight();
         var projectWidth = $project.innerWidth();
 

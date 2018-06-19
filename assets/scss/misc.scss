@@ -1588,10 +1588,15 @@ body.noscroll {
   position: relative;
   width: 100%;
   overflow: hidden;
+  display: block;
+  opacity: 1;
 }
 .section-with-hover .project .animate {
   position: relative;
   z-index: 2;
+}
+.portfolio-item-box {
+  position: relative;
 }
 .section-with-hover .project .over-area {
   display: inline-block;
@@ -1613,7 +1618,7 @@ body.noscroll {
   -ms-transition: background 0.5s, opacity 0.5s 0.5s;
   transition: background 0.5s, opacity 0.5s 0.5s;
 }
-.section-with-hover .project .over-area:hover {
+.section-with-hover .project:hover .over-area {
   opacity: 1;
   -webkit-transition: background 0.25s, opacity 0.25s 0s;
   -moz-transition: background 0.25s, opacity 0.25s 0s;
@@ -1623,7 +1628,7 @@ body.noscroll {
   transition-delay: 0;
   -webkit-transition-delay: 0;
 }
-.section-with-hover .project .over-area:hover .content {
+.section-with-hover .project:hover .over-area .content {
   opacity: 1;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
@@ -1631,7 +1636,7 @@ body.noscroll {
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
-.section-with-hover .project .over-area:hover .content h4 {
+.section-with-hover .project:hover .over-area .content h4 {
   opacity: 1;
   -moz-transition: opacity 0.3s, -moz-transform 0.3s;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1642,7 +1647,7 @@ body.noscroll {
   -o-transform: translateY(0px);
   transform: translateY(0px);
 }
-.section-with-hover .project .over-area:hover .content p {
+.section-with-hover .project:hover .over-area .content p {
   opacity: 1;
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
@@ -1650,7 +1655,7 @@ body.noscroll {
   -o-transform: translateY(0px);
   transform: translateY(0px);
 }
-.section-with-hover .project .over-area:hover .content .btn {
+.section-with-hover .project:hover .over-area .content .btn {
   opacity: 1;
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
@@ -1658,7 +1663,7 @@ body.noscroll {
   -o-transform: translateY(0px);
   transform: translateY(0px);
 }
-.section-with-hover .project .over-area:hover .btn {
+.section-with-hover .project:hover .over-area .btn {
   opacity: 1;
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
@@ -1811,7 +1816,7 @@ body.noscroll {
   -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
   transition: opacity 0.2s, transform 0.2s;
 }
-.section-with-hover .project p {
+.section-with-hover .project .p-transition-text {
   font-size: 1em;
   color: #FFFFFF;
   opacity: 0;
