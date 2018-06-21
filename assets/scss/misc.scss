@@ -1982,7 +1982,6 @@ body.noscroll {
   font-size: 1em;
 }
 .project-content > div .project-details .project-text p span {
-  width: 17%;
   margin-right: 3%;
   text-transform: uppercase;
   color: #9a9a9a;
@@ -1990,6 +1989,17 @@ body.noscroll {
   font-weight: 300;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.project-content .project-details .project-text p a {
+  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.project-content .project-details .project-text h4 {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #9a9a9a;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  margin: 10px 0 5px 0;
 }
 .project-content .icon-close {
   position: fixed;
