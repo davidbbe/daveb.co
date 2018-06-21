@@ -329,7 +329,7 @@ rubik = {
     
     showModal: function(button){
         var id = $(button).data('target');
-        var $project = $(button).closest('.project');
+        var $project = $(button).children('.portfolio-item-box');
         var scrollTop = $(window).scrollTop();
         if ($project.length) {
             var distanceTop = $project.offset().top;
