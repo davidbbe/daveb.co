@@ -57,6 +57,7 @@ $(document).ready(function(){
         no_touch_screen = true;
     }
     
+    //after the content is loaded we reinitialize all the waypoints for the animations
     rubik.initAnimationsCheck();
     
     // Init navigation toggle for small screens   
@@ -88,12 +89,6 @@ $(document).ready(function(){
     }
 
 });
-
-
-$(window).load(function(){
-    //after the content is loaded we reinitialize all the waypoints for the animations
-    rubik.initAnimationsCheck();
-});  
 
 //activate collapse right menu when the windows is resized 
 $(window).resize(function(){
@@ -161,9 +156,9 @@ rubik = {
     },
     initAnimationsCheck: function(){
         $('[class*="add-animation"]').each(function(){
-           offset_diff = 30;
+           offset_diff = 200
            if($(this).hasClass('title')){
-               offset_diff = 110;
+               offset_diff = 100
            }
            
            var waypoints = $(this).waypoint(function(direction) {
@@ -172,8 +167,9 @@ rubik = {
                 } else {
                     $(this.element).removeClass('animate');
                 }
+                this.destroy();
             }, {
-                offset: window_height - offset_diff
+                offset: window_height + offset_diff
             });
         });
     },
@@ -220,7 +216,7 @@ rubik = {
                     e.preventDefault();
 
                     $('html, body').animate({
-                         scrollTop: $(scroll_target).offset().top - 50
+                        scrollTop: $(scroll_target).offset().top - 50
                     }, 1000);
                 }
              });

@@ -1490,11 +1490,6 @@ a.carousel-control span.fa {
   font-size: 70%;
 }
 
-.card img {
-  width: 100%;
-  max-width: 100%;
-}
-
 .section-we-do-1 .text-area, .section-we-do-2 .text-area {
   padding: 4.375em 0 0;
 }
@@ -1519,6 +1514,10 @@ a.carousel-control span.fa {
   line-height: 75px;
   color: #c5a47e;
   margin-bottom: 10px;
+  padding: 0 15px;
+  @media screen and (min-width: 650px) {
+    padding: 0 .9em;
+  }
 }
 
 .card p {
@@ -2439,6 +2438,7 @@ body.noscroll {
 .section-numbers-2, .section-numbers-3 {
   overflow: hidden;
   color: #FFFFFF !important;
+
 }
 .section-numbers-2 .filter:after, .section-numbers-3 .filter:after {
   opacity: .8;
@@ -2469,7 +2469,6 @@ body.noscroll {
 }
 .section-numbers-2 .card h5, .section-numbers-3 .card h5 {
   font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
 }
 
 .address h4 {
@@ -2585,7 +2584,7 @@ body.noscroll {
   font-family: "Droid Sans", "Helvetica Neue", "Helvetica","Arial";
 }
 .footer .btn-social {
-  color: #9A9A9A;
+  color: #fff;
   font-size: 1em;
 }
 
