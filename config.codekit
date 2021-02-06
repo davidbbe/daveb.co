@@ -627,6 +627,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/websites\/pages\/p1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95107,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/pages\/p1.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/pages\/p1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/pages\/p2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77142,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/pages\/p2.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/pages\/p2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/pages\/p3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93930,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/pages\/p3.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/pages\/p3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/websites\/pages\/pci1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -656,6 +689,28 @@
 		"initialSize": 57455,
 		"inputAbbreviatedPath": "\/assets\/img\/websites\/pages\/pci3.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/websites\/pages\/pci3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/particle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47065,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/particle.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/particle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/websites\/particle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.3609e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/websites\/particle.png",
+		"outputAbbreviatedPath": "\/assets\/img\/websites\/particle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -969,15 +1024,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/contact.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/favicon-16x16.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1019,6 +1065,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/nospamwtf.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/nospamwtf.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/README.html": {
 		"fileType": 8192,
