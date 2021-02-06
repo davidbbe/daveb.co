@@ -112,7 +112,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <div  class="title add-animation">
+              <div  class="title add-animation animate">
                 <h2>About Me</h2>
                 <div class="separator-container">
                   <div class="separator line-separator"><i class="fa fa-bolt" aria-hidden="true"></i></div>
@@ -143,10 +143,12 @@
       <div class="bg-pan-left">
       </div>
       <div class="container">
-        <div class="title add-animation">
-          <h2>What I do</h2>
-          <div class="separator-container">
-            <div class="separator line-separator"><i class="fa fa-bolt" aria-hidden="true"></i></div>
+        <div class="text-area">
+          <div class="title add-animation">
+            <h2>What I do</h2>
+            <div class="separator-container">
+              <div class="separator line-separator"><i class="fa fa-bolt" aria-hidden="true"></i></div>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -159,7 +161,7 @@
               <p>Provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices.</p>
             </div>
           </div>
-          <div class="col-md-4 col-xs-6 expertise-clear">
+          <div class="col-md-4 col-xs-6">
             <div class="card add-animation animation-2">
               <div class="icon">
                 <i class="fas fa-tachometer-alt"></i>
@@ -168,7 +170,7 @@
               <p>Speed is a critical factor for optimizing conversion rates, user experience, and SEO. If you don’t have a fast website you will see a high bounce rate and low conversions.</p>
             </div>
           </div>
-          <div class="col-md-4 col-xs-6">
+          <div class="col-md-4 col-xs-6 col-xs-offset-3 col-md-offset-0">
             <div class="card add-animation animation-3">
               <div class="icon">
                 <i class="far fa-handshake"></i>
@@ -515,6 +517,7 @@
                 </div>
                 <div class="col-md-12">
                   <div class="form-group add-animation animation-1">
+                    <label>Message</label>
                     <textarea name="message" type="text" class="form-control" rows="5" required></textarea>
                   </div>
                   <div>
@@ -526,7 +529,7 @@
               </div>
             </form>
             <br/>
-            <div style="display:none;" class="response_msg alert alert-success" role="alert">Your message has been sent</div>
+            <div style="display:none;" class="response_msg alert alert-success" role="alert">Your message did not send. Server error. Please try messaging thorugh Linkedin.</div>
           </div>
         </div>
 
@@ -908,15 +911,18 @@
         e.preventDefault();
         $("#fa-send-icon").removeClass("fa-paper-plane").addClass("fa-spinner fa-spin");
         var sendData = $(this).serialize();
+        console.log(sendData, 'sendData')
         $.ajax({
           type: "POST",
           url: "nospamwtf.php",
-          data: sendData,
-          success: function (data) {
-            $("#fa-send-icon").removeClass("fa-spinner fa-spin").addClass("fa-paper-plane");
-            $(".response_msg").slideDown();
-            $("#contact-form").find("input[type=text], input[type=email], textarea").val("");
-          }
+          data: sendData
+        }).done(function(response){
+          console.log(response, 'response')
+          $("#fa-send-icon").removeClass("fa-spinner fa-spin").addClass("fa-paper-plane");
+          $(".response_msg").text(response).slideDown();
+          $("#contact-form").find("input[type=text], input[type=email], textarea").val("");
+        }).fail(function(response){
+          console.error(response);
         });
       });
     });
