@@ -919,7 +919,6 @@
         body: new URLSearchParams(formData).toString(),
       })
         .then(() => {
-          console.log("Form successfully submitted")
           $(".response_msg").text('Form successfully submitted').slideDown();
           $("#contact-form").find("input[type=text], input[type=email], textarea").val("");
           $("#fa-send-icon").removeClass("fa-spinner fa-spin").addClass("fa-paper-plane");
