@@ -920,7 +920,7 @@
       })
         .then(() => {
           console.log("Form successfully submitted")
-          $(".response_msg").text(response).slideDown();
+          $(".response_msg").text('Form successfully submitted').slideDown();
           $("#contact-form").find("input[type=text], input[type=email], textarea").val("");
         })
         .catch((error) => {
