@@ -907,35 +907,55 @@
   <script type="text/javascript" src="assets/js/min/scripts-min.js?v=1.5"></script>
   <script>$(function(){$('[data-toggle="popover"]').popover()})</script>
 	<script>
-		(function ($) {
-			'use strict';
-			var form = document.getElementById('contact-form');
-			var message = $('.contact__msg'),
-					form_data;
-			// Success function
-			function done_func(response) {
-        $("#fa-send-icon").removeClass("fa-spinner fa-spin").addClass("fa-paper-plane");
-        $(".response_msg").text(response).slideDown();
-        $("#contact-form").find("input[type=text], input[type=email], textarea").val("");
-			}
-			// fail function
-			function fail_func(data) {
-        $("#fa-send-icon").removeClass("fa-spinner fa-spin");
-        $(".response_msg").text(data.responseText).slideDown();
-			}
-			function newOnSubmit(event) {
-				event.preventDefault();
-        $("#fa-send-icon").removeClass("fa-paper-plane").addClass("fa-spinner fa-spin");
-				form_data = $(this).serialize();
-				$.ajax({
-					type: 'POST',
-					url: '/mail.php',
-					data: form_data
-				})
-				.done(done_func)
-				.fail(fail_func);
-			}
-			form.addEventListener('submit', newOnSubmit);
-		})(jQuery);
+		// (function ($) {
+		// 	'use strict';
+		// 	var form = document.getElementById('contact-form');
+		// 	var message = $('.contact__msg'),
+		// 			form_data;
+		// 	// Success function
+		// 	function done_func(response) {
+    //     $("#fa-send-icon").removeClass("fa-spinner fa-spin").addClass("fa-paper-plane");
+    //     $(".response_msg").text(response).slideDown();
+    //     $("#contact-form").find("input[type=text], input[type=email], textarea").val("");
+		// 	}
+		// 	// fail function
+		// 	function fail_func(data) {
+    //     $("#fa-send-icon").removeClass("fa-spinner fa-spin");
+    //     $(".response_msg").text(data.responseText).slideDown();
+		// 	}
+		// 	function newOnSubmit(event) {
+		// 		event.preventDefault();
+    //     $("#fa-send-icon").removeClass("fa-paper-plane").addClass("fa-spinner fa-spin");
+		// 		form_data = $(this).serialize();
+		// 		$.ajax({
+		// 			type: 'POST',
+		// 			url: '/mail.php',
+		// 			data: form_data
+		// 		})
+		// 		.done(done_func)
+		// 		.fail(fail_func);
+		// 	}
+		// 	form.addEventListener('submit', newOnSubmit);
+		// })(jQuery);
+
+
+
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      const myForm = event.target;
+      const formData = new FormData(myForm);
+      
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      })
+        .then(() => console.log("Form successfully submitted"))
+        .catch((error) => alert(error));
+    };
+
+    document
+      .querySelector("form")
+      .addEventListener("submit", handleSubmit);
 	</script>
 </html>
